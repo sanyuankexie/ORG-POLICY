@@ -1,7 +1,6 @@
 ![gitLogo](https://s2.ax1x.com/2019/10/30/KhqyRJ.png)  
 # 开始了解git
 
-注：该文章引用自作者liaoxuefeng的教程，原文地址点击[LiaoXueFeng的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 
 ## <a id='0'>点击目录跳转到：</a>
 [Git简介](#1)  
@@ -1934,3 +1933,7 @@ deploy_key_rsa
 ## <a id='29'>提问-答疑区</a>
 
 [![](https://s2.ax1x.com/2019/10/30/K4aRPJ.png)](https://github.com/GUET-CSSTA-GC/ORG-POLICY/issues/1)
+
+---
+
+该文章部分内容引用自作者liaoxuefeng的教程，原文地址点击[LiaoXueFeng的Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
