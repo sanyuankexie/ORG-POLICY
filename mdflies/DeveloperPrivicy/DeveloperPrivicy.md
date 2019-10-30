@@ -1,4 +1,4 @@
-# Contributor Covenant Code of Conduct
+# <a id='0'>Contributor Covenant Code of Conduct</a>
 
 ## Our Pledge
 
@@ -74,3 +74,9 @@ available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.ht
 
 For answers to common questions about this code of conduct, see
 https://www.contributor-covenant.org/faq
+
+---
+
+[![返回顶端](https://s2.ax1x.com/2019/10/30/K4zn8f.png)](#0)
+
+[![backToIndex](https://s2.ax1x.com/2019/10/29/KfK1e0.png)](https://github.com/GUET-CSSTA-GC/ORG-POLICY#)
