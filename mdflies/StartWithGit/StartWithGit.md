@@ -3,11 +3,12 @@
 
 
 ## <a id='0'>点击目录跳转到：</a>
+
 [Git简介](#1)  
 [Git的诞生](#2)  
 [集中式VS分布式](#3)  
 [安装Git](#4)  
-[创建版本库](#5)
+[创建版本库](#5)  
 [时光机穿梭](#6)  
 [版本回退](#7)  
 [工作区和暂存区](#8)  
@@ -17,7 +18,7 @@
 [远程仓库](#12)  
 [添加远程仓库](#13)  
 [从远程仓库克隆](#14)  
-[分支管理](#15)
+[分支管理](#15)  
 [创建和合并分支](#16)  
 [解决冲突](#17)  
 [分支管理策略](#18)  
@@ -75,6 +76,8 @@ Git有什么特点？简单来说就是：高端大气上档次！
 
 这样，你就结束了手动管理多个“版本”的史前时代，进入到版本控制的20世纪。
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='2'>Git的诞生</a>
@@ -98,6 +101,8 @@ Linus花了两周时间自己用C写了一个分布式版本控制系统，这�
 Git迅速成为最流行的分布式版本控制系统，尤其是2008年，GitHub网站上线了，它为开源项目免费提供Git存储，无数开源项目开始迁移至GitHub，包括jQuery，PHP，Ruby等等。
 
 历史就是这么偶然，如果不是当年BitMover公司威胁Linux社区，可能现在我们就没有免费而超级好用的Git了。
+
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
 
 ---
 
@@ -130,6 +135,8 @@ CVS作为最早的开源而且免费的集中式版本控制系统，直到现�
 
 分布式版本控制系统除了Git以及促使Git诞生的BitKeeper外，还有类似Git的Mercurial和Bazaar等。这些分布式版本控制系统各有特点，但最快、最简单也最流行的依然是Git！
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='4'>安装Git</a>  
@@ -150,6 +157,8 @@ $ git config --global user.email "email@example.com"
 因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。你也许会担心，如果有人故意冒充别人怎么办？这个不必担心，首先我们相信大家都是善良无知的群众，其次，真的有冒充的也是有办法可查的。
 
 注意git config命令的--global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
+
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
 
 ---
 
@@ -233,6 +242,8 @@ $ git commit -m "add 3 files."
 使用命令git add <file>，注意，可反复多次使用，添加多个文件；
 使用命令git commit -m <message>，完成。
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='6'>时光机穿梭</a>
@@ -300,6 +311,8 @@ Git告诉我们当前没有需要提交的修改，而且，工作目录是干�
 小结  
 要随时掌握工作区的状态，使用git status命令。  
 如果git status告诉你有文件被修改过，用git diff可以查看修改内容。  
+
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
 
 ---
 
@@ -448,6 +461,8 @@ Git <span class="keyword">is</span> free software distributed under the GPL.
 </ul>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='8'>工作区和暂存区</a>
@@ -528,6 +543,8 @@ nothing to <span class="operator"><span class="keyword">commit</span>, working t
 <p>没弄明白暂存区是怎么回事的童鞋，请向上滚动页面，再看一次。</p>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='9'>管理修改</a>
@@ -599,6 +616,8 @@ index <span class="number">76</span>d770f..a9c5755 <span class="number">100644</
 <h3>小结</h3>
 <p>现在，你又理解了Git是如何跟踪修改的，每次修改，如果不用<code>git add</code>到暂存区，那就不会加入到<code>commit</code>中。</p>
 </div>
+
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
 
 ---
 
@@ -691,6 +710,8 @@ nothing to <span class="operator"><span class="keyword">commit</span>, working t
 <p>场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考<a href="/wiki/896043488029600/897013573512192">版本回退</a>一节，不过前提是没有推送到远程库。</p>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='11'>删除文件</a>
@@ -740,6 +761,8 @@ $ git <span class="operator"><span class="keyword">commit</span> -m <span class=
 <p>命令<code>git rm</code>用于删除一个文件。如果一个文件已经被提交到版本库，那么你永远不用担心误删，但是要小心，你只能恢复文件到最新版本，你会丢失<strong>最近一次提交后你修改的内容</strong>。</p>
 </div>  
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='12'>远程仓库</a>
@@ -776,6 +799,8 @@ $ git <span class="operator"><span class="keyword">commit</span> -m <span class=
 <h3>小结</h3>
 <p>“有了远程仓库，妈妈再也不用担心我的硬盘了。”——Git点读机</p>
 </div>
+
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
 
 ---
 
@@ -838,6 +863,8 @@ Are you sure you want to continue connecting (yes/no)?
 <p>分布式版本系统的最大好处之一是在本地工作完全不需要考虑远程库的存在，也就是有没有联网都可以正常工作，而SVN在没有联网的时候是拒绝干活的！当有网络的时候，再把本地提交推送一下就完成了同步，真是太方便了！</p>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='14'>从远程仓库克隆</a>
@@ -873,6 +900,8 @@ Are you sure you want to continue connecting (yes/no)?
 <p>Git支持多种协议，包括<code>https</code>，但通过<code>ssh</code>支持的原生<code>git</code>协议速度最快。</p>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='15'>分支管理</a>
@@ -887,6 +916,8 @@ Are you sure you want to continue connecting (yes/no)?
 <p>其他版本控制系统如SVN等都有分支管理，但是用过之后你会发现，这些版本控制系统创建和切换分支比蜗牛还慢，简直让人无法忍受，结果分支功能成了摆设，大家都不去用。</p>
 <p>但Git的分支是与众不同的，无论创建、切换和删除分支，Git在1秒钟之内就能完成！无论你的版本库是1个文件还是1万个文件。</p>
 </div>
+
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
 
 ---
 
@@ -988,6 +1019,8 @@ Are you sure you want to continue connecting (yes/no)?
 <p>合并某分支到当前分支：<code>git merge &lt;name&gt;</code></p>
 <p>删除分支：<code>git branch -d &lt;name&gt;</code></p>
 </div>
+
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
 
 ---
 
@@ -1100,6 +1133,8 @@ Git tracks changes of files.
 <p>用<code>git log --graph</code>命令可以看到分支合并图。</p>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='18'>分支管理策略</a>
@@ -1155,6 +1190,8 @@ $ git <span class="operator"><span class="keyword">commit</span> -m <span class=
 <p>Git分支十分强大，在团队开发中应该充分应用。</p>
 <p>合并分支时，加上<code>--no-ff</code>参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而<code>fast forward</code>合并就看不出来曾经做过合并。</p>
 </div>
+
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
 
 ---
 
@@ -1265,6 +1302,8 @@ Dropped refs/stash@{0} (5d677e2ee266f39ea296182fb2354265b91b3b2a)
 <p>在master分支上修复的bug，想要合并到当前dev分支，可以用<code>git cherry-pick &lt;commit&gt;</code>命令，把bug提交的修改“复制”到当前分支，避免重复劳动。</p>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='20'>Feature分支</a>
@@ -1313,6 +1352,8 @@ Dropped refs/stash@{0} (5d677e2ee266f39ea296182fb2354265b91b3b2a)
 <p>开发一个新feature，最好新建一个分支；</p>
 <p>如果要丢弃一个没有被合并过的分支，可以通过<code>git branch -D &lt;name&gt;</code>强行删除。</p>
 </div>
+
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
 
 ---
 
@@ -1485,6 +1526,8 @@ Total <span class="number">6</span> (delta <span class="number">0</span>), reuse
 </ul>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='22'>变基</a>
@@ -1639,6 +1682,8 @@ nothing to <span class="operator"><span class="keyword">commit</span>, working t
 </ul>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='23'>标签管理</a>
@@ -1653,6 +1698,8 @@ nothing to <span class="operator"><span class="keyword">commit</span>, working t
 <p>“好的，按照tag v1.2查找commit就行！”</p>
 <p>所以，tag就是一个让人容易记住的有意义的名字，它跟某个commit绑在一起。</p>
 </div>
+
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
 
 ---
 
@@ -1748,6 +1795,8 @@ diff --git a/readme.txt b/readme.txt
 </ul>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='25'>操作标签</a>
@@ -1797,6 +1846,8 @@ diff --git a/readme.txt b/readme.txt
 </ul>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='26'>使用Github</a>
@@ -1838,6 +1889,8 @@ diff --git a/readme.txt b/readme.txt
 </ul>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='27'>自定义Git</a>
@@ -1853,6 +1906,8 @@ diff --git a/readme.txt b/readme.txt
 <p>文件名就会标上颜色。</p>
 <p>我们在后面还会介绍如何更好地配置Git，以便让你的工作更高效。</p>
 </div>  
+
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
 
 ---
 
@@ -1928,6 +1983,8 @@ deploy_key_rsa
 </ul>
 </div>
 
+[![返回目录](https://s2.ax1x.com/2019/10/30/K4XDhT.png)](#0)
+
 ---
 
 ## <a id='29'>提问-答疑区</a>
@@ -1935,3 +1992,4 @@ deploy_key_rsa
 [![](https://s2.ax1x.com/2019/10/30/K4aRPJ.png)](https://github.com/GUET-CSSTA-GC/ORG-POLICY/issues/1)
 
 ---
+
