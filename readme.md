@@ -1,10 +1,8 @@
 <font face = 等线>  
 
 
-[![head](https://s2.ax1x.com/2019/10/29/KfmtWd.png)]()
+[![head](https://s2.ax1x.com/2019/11/01/KbnCee.png)](https://github.com/GUET-CSSTA-GC/ORG-POLICY)
 ---  
-  
-# （欢迎的话）！  
 
 [![](https://s2.ax1x.com/2019/10/29/KfmUSA.png)](https://github.com/GUET-CSSTA-GC/ORG-POLICY/blob/master/mdflies/FormatOfReports/FormatOfReports.md)
 
