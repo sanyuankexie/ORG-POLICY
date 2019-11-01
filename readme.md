@@ -12,7 +12,7 @@
 
 [![](https://s2.ax1x.com/2019/10/29/KfmwOP.png)](https://github.com/GUET-CSSTA-GC/ORG-POLICY/blob/master/mdflies/DeveloperPrivicy/DeveloperPrivicy.md)
 
-[![](https://s2.ax1x.com/2019/10/29/KfmaQI.png)]()
+[![](https://s2.ax1x.com/2019/10/29/KfmaQI.png)](https://github.com/GUET-CSSTA-GC/ORG-POLICY/blob/master/mdflies/IM_SO_VEGETABLE/IM_SO_VEGETABLE.MD)
 
 * 目前该页面还在建设，不可用
 
