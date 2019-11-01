@@ -1,3 +1,5 @@
+<font face = 等线>
+
 # 规范你的学习报告  
 
 <font size = 5>  
@@ -7,6 +9,21 @@
 </font>
 
 ---
+
+<font size = 5 color = red>
+* 注意：你的学习过程实际上可以通过projects面板直接体现。如果只希望使用projects面板，你可以不阅读下文。下文是对于不但希望在projects面板工作还希望建立自己的提交仓库并提交自己的周总结的人准备的。
+</font>
+
+[![backToIndex](https://s2.ax1x.com/2019/10/29/KfK1e0.png)](https://github.com/GUET-CSSTA-GC/ORG-POLICY#)
+
+
+## 那么为什么我要多此一举写出报告并提交到仓库？
+
+* Projects 面板具有局限性  
+projects面板无法显示比较长的内容（分块宽度较小，不适合展示示例代码，也不适合做长篇幅笔记记录等），而且需要定期清理（内容快过多时向前回溯需要不断往回翻，而且内容过多会导致网页加载缓慢），无法长时间留下自己的笔记等内容，而且任何人都可以编辑修改删除你在projects面板里添加的内容，有些人就是手滑。
+
+* 自己的仓库的优越性  
+适合以一定结构存放不同内容，然后可以在任何地方引用。你大致可暂时将你的仓库想象成一个文件夹，你可以在里面整理你上传的文件和内容，然后通过"文件目录"访问任何内容。这些内容可以大量长久保留，每个仓库还有单独的ISSUE区（话题讨论区），你可以在里面新建讨论板，引用内容，提问或是回答问题，AT某人出来和你聊天，之类的。而且，你自己的仓库给予了你完备的权限管理功能，你可以规定只有自己可以修改仓库里的内容，然后在公共讨论区域需要引用你的文件时别人将会"以只读浏览你的引用"。算了，好处太多就不讲了.....直接举个例子吧。你现在正在浏览的这个页面，呃，很不巧，就是一个仓库。
 
 ## 为何我们需要一个大概的提交格式？ 
 
@@ -107,6 +124,8 @@
 
 ---
 
-[![FirstCommit](https://s2.ax1x.com/2019/10/29/KftAjU.png)]()
+[![FirstCommit](https://s2.ax1x.com/2019/10/29/KftAjU.png)](https://github.com/GUET-CSSTA-GC/ORG-POLICY/blob/master/mdflies/FirstCommit/FirstCommit.md)
 
 [![backToIndex](https://s2.ax1x.com/2019/10/29/KfK1e0.png)](https://github.com/GUET-CSSTA-GC/ORG-POLICY#)
+
+</font>
