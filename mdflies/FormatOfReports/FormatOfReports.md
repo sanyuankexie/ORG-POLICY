@@ -11,10 +11,12 @@
 ---
 
 <font size = 5 color = red>
+  
 * 注意：你的学习过程实际上可以通过projects面板直接体现。如果只希望使用projects面板，你可以不阅读下文。下文是对于不但希望在projects面板工作还希望建立自己的提交仓库并提交自己的周总结的人准备的。  
   
 </font>
-
+  
+    
 [![backToIndex](https://s2.ax1x.com/2019/10/29/KfK1e0.png)](https://github.com/GUET-CSSTA-GC/ORG-POLICY#)
 
 
