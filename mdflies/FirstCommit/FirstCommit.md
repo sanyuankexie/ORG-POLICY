@@ -24,7 +24,7 @@
   
   </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 
-# 你都会了那我还教个毛线，在ORG里新建一个你的名字的拼音(开头大写)的仓库然后直接自己搞行了。
+# 你都会了那我还教个毛线，在ORG里新建一个你的名字的拼音(开头大写)的仓库然后直接自己搞行了,现在就去！
 
   
 [![backToIndex](https://s2.ax1x.com/2019/10/29/KfK1e0.png)](https://github.com/GUET-CSSTA-GC/ORG-POLICY#)
