@@ -1508,6 +1508,19 @@ Total <span class="number">6</span> (delta <span class="number">0</span>), reuse
 </ol>
 <p>如果<code>git pull</code>提示<code>no tracking information</code>，则说明本地分支和远程分支的链接关系没有创建，用命令<code>git branch --set-upstream-to &lt;branch-name&gt; origin/&lt;branch-name&gt;</code>。</p>
 <p>这就是多人协作的工作模式，一旦熟悉了，就非常简单。</p>
+<h3>推荐</h3>
+<p>当你在准备进行使用 <code>多人协作</code>功能之前，为了更好的向其他的仓库管理以及代码编写者表达更加清楚的代码变动关系，以及创建一个项目的结构化的提交历史记录，推荐阅读：<a href='https://www.conventionalcommits.org/zh-hans/'>约定式提交</a>部分，并且根据其相关要求，对自己的提交记录进行相关规范。</p>
+<h4>它的好处</h4>
+<ul>
+<li>自动化生成 CHANGELOG。</li>
+<li>基于提交的类型，自动决定语义化的版本变更。</li>
+<li>向同事、公众与其他利益关系者传达变化的性质。</li>
+<li>触发构建和部署流程。</li>
+<li>让人们探索一个更加结构化的提交历史，以便降低对你的项目做出贡献的难度。</li>
+
+</ul>
+<p>&nbsp;</p>
+
 <h3>小结</h3>
 <ul>
 <li>
